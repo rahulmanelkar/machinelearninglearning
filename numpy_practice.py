@@ -16,3 +16,13 @@ def swap_rows(M, row_index_1, row_index_2):
     M[[row_index_1, row_index_2]] = M[[row_index_2, row_index_1]]
     return M
 
+def numpy_examples():
+    M = np.array([
+    [1, 3, 6],
+    [0, -5, 2],
+    [-4, 5, 8]
+    ])
+    print(M)
+
+if __name__=='__main__':
+    numpy_examples()
