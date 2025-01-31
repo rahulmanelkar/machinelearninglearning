@@ -24,5 +24,8 @@ def numpy_examples():
     ])
     print(M)
 
+    M_swapped = swap_rows(M, 0, 2)
+    print(M_swapped)
+
 if __name__=='__main__':
     numpy_examples()
